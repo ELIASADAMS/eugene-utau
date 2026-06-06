@@ -1,0 +1,868 @@
+:root {
+    /* Primary Colors */
+    --color-bg-primary: #253d3f;
+    --color-bg-secondary: #587174;
+    --color-bg-light: #ffff;
+    --color-text-primary: #a9665c;
+    --color-text-main: #cfd4d4;
+    --color-text-secondary: #4b6366;
+    --color-text-muted: #6a5a4d;
+
+    /* Accent Colors (Akane theme) */
+    --color-accent-primary: #d89b5a;
+    --color-accent-secondary: #b36b32;
+    --color-accent-gradient: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary));
+    --color-accent-inside: #f7f1ea;
+
+    /* Other Colors (Other theme) */
+    --color-other-blue-primary: #a1c1e0;
+    --color-other-blue-secondary: #85a1d4;
+    --color-other-gradient-blue: linear-gradient(135deg, var(--color-other-blue-secondary), var(--color-other-blue-primary));
+
+
+    /* Borders & Shadows */
+    --color-border-light: #ece4dd;
+    --color-border-hover: var(--color-accent-primary);
+    --color-shadow-light: rgba(0, 0, 0, 0.06);
+    --color-shadow-medium: rgba(0, 0, 0, 0.12);
+
+    /* Hover States */
+    --color-hover-bg: #f8f3ed;
+    --color-hover-border: var(--color-accent-primary);
+
+    /* Typography */
+    --font-family-base: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+
+    /* Border Radius */
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 14px;
+    --radius-xl: 16px;
+    --radius-full: 999px;
+
+    /* Shadows */
+    --shadow-sm: 0 4px 12px var(--color-shadow-light);
+    --shadow-md: 0 8px 20px var(--color-shadow-medium);
+    --shadow-lg: 0 12px 32px var(--color-shadow-medium);
+
+    /* Fonts */
+    --font-display: "Hiragino Maru Gothic ProN", "Yu Mincho", "Noto Serif JP", sans-serif;
+    --font-body: "BIZ UDMincho", system-ui, sans-serif;
+
+
+    /* Paper */
+    --paper-noise:
+        radial-gradient(circle at 23px 23px, rgba(0, 0, 0, 0.03) 1px, transparent 0),
+        radial-gradient(circle at 73px 73px, rgba(0, 0, 0, 0.02) 1px, transparent 0),
+        radial-gradient(circle at 43px 93px, rgba(255, 255, 255, 0.8) 1px, transparent 0);
+    --paper-color: #f5efe8;
+}
+
+/* Base layout */
+body {
+    font-family: var(--font-body);
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-bg-primary);
+    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+}
+
+/* Paper cards use same texture */
+main,
+.download-link,
+.wiki-button,
+.wiki-infobox,
+.audio-preview,
+.footer_container,
+.info-box,
+.contact-card .timeline-date,
+.site-title-block {
+    background-color: var(--color-bg-light);
+    background-image: url("https://www.transparenttextures.com/patterns/whitey.png");
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.biz-udmincho-regular {
+    font-family: "BIZ UDMincho", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+header {
+    padding: 1.5rem 1rem 0.75rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+}
+
+.site-header {
+    padding: 1.6rem 1.25rem 1.8rem;
+    border-bottom: 1px solid var(--color-text-main);
+    color: var(--color-text-primary);
+}
+
+.site-header-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* The label “plate” */
+.site-title-block {
+    position: relative;
+    padding: 0.8rem 1.8rem;
+    background-color: var(--color-bg-light);
+    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+    border-radius: 6px;
+    border: 1px solid var(--color-bg-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.2rem;
+}
+
+.site-title-block h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    font-family: var(--font-display);
+}
+
+.site-subtitle {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    font-family: var(--font-body);
+}
+
+.site-title-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: var(--font-body);
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    color: inherit;
+    gap: 0.1rem;
+    text-align: center;
+}
+
+
+.site-title-link .site-subtitle {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--color-text-muted);
+}
+
+
+.site-portrait {
+    display: flex;
+    justify-content: center;
+}
+
+.site-portrait img {
+    display: block;
+    width: 600px;
+    height: 600px;
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+
+@media (max-width: 700px) {
+    .site-header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .site-portrait img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+/* Simple top nav */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem 1.25rem;
+    border-bottom: 1px solid #e5ded7;
+    background: var(--color-bg-secondary);
+    background-image: url("https://www.transparenttextures.com/patterns/whitey.png");
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #555;
+    padding: 0.35rem 0.9rem;
+    border-radius: 4px;
+    border: 1px solid black;
+    font-weight: 500;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    font-family: var(--font-body);
+    transition: all 0.18s ease-out;
+}
+
+nav a:hover {
+    background: rgba(248, 244, 237, 0.6);
+    border-color: var(--color-bg-secondary);
+    color: var(--color-text-primary);
+}
+
+nav a.active {
+    background: var(--color-text-main);
+    color: var(--color-text-secondary);
+    border-color: var(--color-text-secondary);
+    background-image: url("https://www.transparenttextures.com/patterns/whitey.png");
+}
+
+/* Main content */
+
+main {
+    max-width: 880px;
+    margin: 2rem auto 3rem;
+    padding: 0 1.25rem;
+}
+
+section {
+    margin-bottom: 2.5rem;
+}
+
+h2 {
+    font-family: var(--font-body);
+    font-size: 4.167rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin: 0 0 1rem;
+    color: var(--color-text-primary);
+}
+
+/* Carousel*/
+
+.art-carousel {
+    max-width: 800px;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.carousel-container {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.4s ease-out;
+    height: 500px;
+}
+
+.art-slide {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    /* background: var(--color-bg-secondary); */
+}
+
+.art-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.carousel-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.carousel-btn {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #ece4dd;
+    background: var(--color-bg-secondary);
+    color: #666;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-btn:hover {
+    background: var(--color-hover-bg);
+    border-color: var(--color-accent-primary);
+    color: #444;
+    transform: scale(1.1);
+}
+
+/* Indicators */
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.carousel-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ddd;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.carousel-indicator.active {
+    background: var(--color-accent-primary);
+}
+
+
+
+/* Generic soft box for terms / description */
+.terms,
+.info-box {
+    /* background: var(--color-text-main); */
+    border-radius: 12px;
+    padding: 1.25rem 1.4rem;
+    border: 1px solid var(--color-bg-primary);
+    margin: 1.25rem 0;
+}
+
+.terms h2,
+.terms h3,
+.info-box h3 {
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    font-size: 1.833rem;
+    font-weight: 500;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.terms ul,
+.info-box ul {
+    margin: 0.4rem 0 0;
+    padding-left: 1.1rem;
+    font-size: 0.9rem;
+}
+
+.terms li,
+.info-box li {
+    margin-bottom: 0.3rem;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    letter-spacing: normal;
+    margin: 0.2rem 0 0.4rem;
+    color: var(--color-text-secondary);
+}
+
+/* Layout of profile + infobox */
+
+.wiki-infobox {
+    box-sizing: border-box;
+    /* background: var(--color-bg-secondary); */
+    border-radius: 12px;
+    border: 1px solid var(--color-bg-secondary);
+    padding: 1rem 1.1rem;
+    font-size: 0.85rem;
+    width: 260px;
+    max-width: 40%;
+    float: right;
+    margin: 0 0 1.5rem 1.5rem;
+}
+
+.wiki-infobox-image {
+    text-align: center;
+    margin-bottom: 0.75rem;
+}
+
+.wiki-infobox-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.wiki-infobox dl {
+    margin: 0;
+}
+
+.wiki-infobox dl>div {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.wiki-infobox dt {
+    font-weight: 500;
+    color: var(--color-accent-secondary);
+    white-space: nowrap;
+}
+
+.wiki-infobox dd {
+    margin: 0;
+    color: var(--color-text-muted);
+    text-align: right;
+}
+
+/* “Wiki section” accent simplified */
+
+.wiki-section {
+    border-left: 2px solid var(--color-accent-primary);
+    padding-left: 0.9rem;
+    font-size: 0.9rem;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+    margin: 2rem auto 0;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5rem 1rem 1rem;
+    font-size: 0.8rem;
+    justify-items: center;
+    color: var(--color-text-main);
+    font-weight: 800;
+}
+
+.footer_container {
+    background-color: white;
+    border: 2px solid var(--color-text-main);
+}
+
+
+
+@media (max-width: 900px) {
+    main {
+        padding: 0 1rem;
+    }
+
+    .wiki-infobox {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        margin: 1.5rem 0;
+    }
+}
+
+.download-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1.2rem;
+}
+
+.download-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+    padding: 0.9rem 1.1rem;
+    border-radius: 6px;
+    /* sharper corners */
+    text-decoration: none;
+    background: rgba(248, 244, 237, 0.95);
+    border: 1px solid #cbb6a1;
+    /* manual paper edge */
+    color: var(--color-text-primary);
+    font-family: var(--font-body);
+    transition: all 0.18s ease-out;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.download-link:hover {
+    background: var(--color-accent-inside);
+    border-color: #b36b32;
+    /* orange accent */
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(179, 107, 50, 0.15);
+}
+
+.download-label {
+    font-size: 0.88rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    /* tighter spacing */
+    text-transform: uppercase;
+}
+
+.download-meta {
+    font-size: 0.75rem;
+    color: #5a4a3e;
+    font-weight: 400;
+}
+
+@media (max-width: 600px) {
+    .download-link {
+        padding: 0.75rem 0.9rem;
+    }
+}
+
+/* Hide scrollbar for Chrome, Safari, Edge, Opera */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Firefox */
+html,
+body {
+    scrollbar-width: none;
+}
+
+/* Hide scrollbar for IE/Edge (older versions) */
+html,
+body {
+    -ms-overflow-style: none;
+}
+
+.audio-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--color-text-main);
+    border-radius: 16px;
+    border: 1px solid var(--color-bg-primary);
+}
+
+.audio-preview>p {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--color-text-secondary);
+}
+
+.audio-preview audio {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    margin: 0.6rem auto 0;
+    height: 48px;
+    outline: none;
+}
+
+.audio-preview audio::-webkit-media-controls-panel {
+    border-radius: 12px;
+    background: linear-gradient(145deg, #var(--color-bg-primary), #f4ede5);
+    border: 1px solid #e8d9c9;
+}
+
+.audio-preview audio::-webkit-media-controls-play-button,
+.audio-preview audio::-webkit-media-controls-volume-slider,
+.audio-preview audio::-webkit-media-controls-current-time-display,
+.audio-preview audio::-webkit-media-controls-time-remaining-display {
+    border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+    .audio-preview {
+        padding: 1.2rem;
+        margin: 1.5rem 0;
+    }
+
+    .audio-preview audio {
+        max-width: 100%;
+    }
+}
+
+.wiki-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.4rem;
+    margin: 1rem auto 0;
+    background: var(--color-text-main);
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: 1px solid var(--color-text-muted);
+    transition: all 0.18s ease-out;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    font-family: var(--font-body);
+}
+
+.wiki-button:hover {
+    background: var(--color-accent-inside);
+    border-color: var(--color-text-muted);
+    color: var(--color-text-muted);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(179, 107, 50, 0.15);
+}
+
+.wiki-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Contacts*/
+
+.contact-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem;
+    /* background: var(--color-bg-secondary); */
+    border-radius: 14px;
+    border: 1px solid var(--color-bg-secondary);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.contact-card:hover {
+    background: var(--color-hover-bg);
+    border-color: var(--color-accent-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.contact-avatar {
+    width: 92px;
+    height: 56px;
+    border-radius: 12px;
+    border: 1px solid var(--color-bg-secondary);
+    /* background: var(--color-other-gradient-blue); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: var(--color-bg-secondary);
+    font-size: 0.75rem;
+    line-height: 1.1;
+    text-align: center;
+    padding: 0 2px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+.contact-info h3 {
+    margin: 0 0 0.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-text-primary);
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+}
+
+@media (max-width: 600px) {
+    .contact-grid {
+        gap: 0.8rem;
+        margin-top: 1.2rem;
+    }
+
+    .contact-card {
+        padding: 1rem 1.1rem;
+        flex-direction: column;
+        text-align: center;
+        gap: 0.8rem;
+    }
+
+    .contact-avatar {
+        width: 92px;
+        height: 68px;
+        font-size: 0.85rem;
+        border-radius: 14px;
+    }
+
+    .contact-info h3 {
+        font-size: 0.95rem;
+    }
+
+    .contact-info p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Log*/
+
+.timeline-section {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.timeline-block {
+    margin-bottom: 4rem;
+}
+
+.timeline-block h2 {
+    font-size: 1.1rem;
+    letter-spacing: normal;
+    color: var(--color-text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 1.2rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--color-border-light), var(--color-accent-primary));
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+
+.timeline-date {
+    position: absolute;
+    left: -5.6rem;
+    top: 0.2rem;
+    width: 5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    text-align: center;
+    /* background: var(--color-text-main); */
+    border-radius: 10%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--color-text-secondary);
+}
+
+.timeline-content {
+    /* background: var(--color-bg-secondary); */
+    padding: 1.3rem;
+    border-radius: 14px;
+    border: 1px solid var(--color-text-secondary);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: all 0.2s ease-out;
+    position: relative;
+}
+
+.timeline-content:hover {
+    transform: translateX(4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-color: var(--color-accent-primary);
+}
+
+.timeline-content h3 {
+    margin: 0 0 0.8rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--color-text-primary);
+}
+
+.timeline-content p,
+.timeline-content ul {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
+.timeline-content ul {
+    padding-left: 1.2rem;
+}
+
+.timeline-content li {
+    margin-bottom: 0.3rem;
+}
+
+@media (max-width: 600px) {
+    .timeline-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .timeline-date {
+        position: static;
+        width: 5.2rem;
+        height: 2.2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .timeline::before {
+        left: 0.7rem;
+    }
+}

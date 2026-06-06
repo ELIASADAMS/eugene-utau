@@ -1,16 +1,16 @@
 :root {
     /* Primary Colors */
-    --color-bg-primary: #253d3f;
-    --color-bg-secondary: #587174;
+    --color-bg-primary: #4b1f6f;
+    --color-bg-secondary: #9b59d0;
     --color-bg-light: #ffff;
-    --color-text-primary: #a9665c;
-    --color-text-main: #cfd4d4;
-    --color-text-secondary: #4b6366;
+    --color-text-primary: #057fe7;
+    --color-text-main: #d5a5fd;
+    --color-text-secondary: #4b1f6f;
     --color-text-muted: #6a5a4d;
 
-    /* Accent Colors (Akane theme) */
-    --color-accent-primary: #d89b5a;
-    --color-accent-secondary: #b36b32;
+    /* Accent Colors (Eugene theme) */
+    --color-accent-primary: #9b59d0;
+    --color-accent-secondary: #4b1f6f;
     --color-accent-gradient: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary));
     --color-accent-inside: #f7f1ea;
 
@@ -311,7 +311,7 @@ h2 {
     height: 48px;
     border: 2px solid #ece4dd;
     background: var(--color-bg-secondary);
-    color: #666;
+    color: var(--color-text-primary);
     border-radius: 50%;
     font-size: 1.2rem;
     font-weight: 500;
@@ -371,7 +371,7 @@ h2 {
     font-weight: 500;
     letter-spacing: normal;
     text-transform: uppercase;
-    color: #666;
+    color: var(--color-text-primary);
 }
 
 .terms ul,

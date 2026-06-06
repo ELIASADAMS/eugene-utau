@@ -1,6 +1,6 @@
-# 茜音イーライ (Akane Iirai) UTAU Voicebank
+# 友人 (Eugene) UTAU Voicebank
 
-Official resources, installation instructions, usage tips, license terms, and art credits for the 茜音イーライ (Akane Iirai) singing synthesizer.
+Official resources, installation instructions, usage tips, license terms, and art credits for the 友人 (Eugene) singing synthesizer.
 
 ***
 
@@ -19,7 +19,7 @@ Official resources, installation instructions, usage tips, license terms, and ar
 
 ## About
 
-**茜音イーライ (Akane Iirai)** is a Japanese-language UTAU voicebank created by digital artist Ilya Minin (Eli). This voicebank is recorded using the CVVC method, providing smooth consonant-vowel transitions and reliable low-range vocal expression.
+**友人 (Eugene)** is a Japanese-language UTAU voicebank created by digital artist Ilya Minin (Eli). This voicebank is recorded using the CVVC method, providing smooth consonant-vowel transitions and reliable low-range vocal expression.
 
 ***
 
@@ -34,7 +34,7 @@ Official resources, installation instructions, usage tips, license terms, and ar
 
 ## Installation
 
-1. Download the ZIP archive: [イーライ Voicebank ZIP](https://github.com/ELIASADAMS/Iirai/releases/tag/Release)
+1. Download the ZIP archive: [友人 Voicebank ZIP](https://github.com/ELIASADAMS/Eugene/releases/tag/Release)
 2. Unzip to your UTAU `voice` directory (usually `C:\Users\YourName\UTAU\voice`)
 
 ***
@@ -49,7 +49,7 @@ Official resources, installation instructions, usage tips, license terms, and ar
 
 ## Terms of Use
 
-- **Attribution:** Always credit as "イーライ" or "Iirai", and author as "Ilya Minin (Eli)"
+- **Attribution:** Always credit as "友人" or "Eugene", and author as "Ilya Minin (Eli)"
 - **Content:** Contact the author for any sexual, political, or religious works. Violent content is permitted.
 - **Prohibited:** Criminal activity, explicit underage content, hate or bigotry, and UTAU policy violations.
 - **Art:** Do not reuse or modify official character artwork without permission. No commercial use or AI training using images.
@@ -62,7 +62,7 @@ Official resources, installation instructions, usage tips, license terms, and ar
 ## Credits
 
 - Voice Provider: Ilya Minin (Eli)
-- Character Design: Schenchik
+- Character Design: Ilya Minin (Eli)
 - Consultation & Otoing: eikton
 
 ***
@@ -70,5 +70,4 @@ Official resources, installation instructions, usage tips, license terms, and ar
 ## Contact
 
 - Ilya Minin (Eli): [https://t.me/ilyaminineli](https://t.me/ilyaminineli)
-- Schenchik: [https://t.me/shenchik](https://t.me/shenchik)
 - eikton: [https://t.me/e1kton](https://t.me/e1kton)

@@ -19,14 +19,18 @@ Official resources, installation instructions, usage tips, license terms, and ar
 
 ## About
 
-**友人 (Eugene)** is a Japanese-language UTAU voicebank created by digital artist Ilya Minin (Eli). This voicebank is recorded using the CVVC method, providing smooth consonant-vowel transitions and reliable low-range vocal expression.
+**友人 (Eugene)** is a Japanese-language UTAU voicebank created by digital artist Ilya Minin (Eli). 
+
+His voice was created from a carefully preserved collection of remnants, rebuilt phonemes, and heavily post-produced material, giving the feeling of someone speaking back through layers of memory.
+
+Eugene does not sound artificial in the usual sense; he sounds as though he have returned from somewhere
 
 ***
 
 ## Features
 
 - Full CVVC Japanese recording method, optimized for natural consonant-vowel blending
-- Single pitch, most effective in lower registers for bass textures
+- 3 pitches, C1-F#4
 - Compatible with major UTAU resamplers, especially TIPS and wavtool4vcv
 - Sample rate: 16/48 kHz recommended
 

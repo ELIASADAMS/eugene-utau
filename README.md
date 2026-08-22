@@ -13,6 +13,7 @@ Official repository for **友人 (Eugene)**, a Japanese CVVC UTAU voicebank by *
 - [Official Manual](docs/MANUAL.md)
 - [Technical Specifications](docs/VOICEBANK.md)
 - [Terms of Use](TERMS.md)
+- [Machine-readable Metadata](voicebank.json)
 - [Changelog](changelog.html)
 
 ## Voicebank Specifications
@@ -75,7 +76,8 @@ Credit the voicebank as **友人** or **Eugene**, with creator credit to **Ilya 
 ## Repository Contents
 
 - `docs/` — canonical documentation derived from the official manual
-- `assets/` — future location for organized character/promotional assets
+- `voicebank.json` — machine-readable voicebank metadata
+- `TERMS.md` — canonical terms of use
 - `sample.wav` — singing sample
 - `solfege.wav` — solfege sample
 - `index.html` — official GitHub Pages homepage

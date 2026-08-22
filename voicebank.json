@@ -1,0 +1,45 @@
+{
+  "name": "友人",
+  "romanized_name": "Eugene",
+  "type": "UTAU voicebank",
+  "engines": ["UTAU", "OpenUtau"],
+  "language": "Japanese",
+  "recording_method": "CVVC",
+  "encoding": "Romaji-encoded",
+  "aliasing": "CVVC",
+  "gender": "Fluid / Non-binary",
+  "pronouns": "he/him",
+  "age": 20,
+  "height_cm": 159,
+  "weight_kg": 43,
+  "species": "Human (augmented)",
+  "birthday": "2026-06-06",
+  "pitches": ["C3", "G3", "C4"],
+  "range": "G#3-D3",
+  "optimal_bpm": "70-120",
+  "genres": ["Dark pop", "Industrial", "Experimental"],
+  "features": ["Consonant clarity", "High end", "Bass"],
+  "recommended_tools": [
+    "TIPS",
+    "Moresampler",
+    "WORLDLINE-R",
+    "wavtool4vcv"
+  ],
+  "credits": {
+    "creator": "Ilya Minin (Eli)",
+    "voice_provider": "Possum Eugene",
+    "illustrator": "Ilya Minin (Eli)",
+    "oto_technical": "eikton"
+  },
+  "official_links": {
+    "repository": "https://github.com/ELIASADAMS/eugene-utau",
+    "website": "https://eliasadams.github.io/eugene-utau/",
+    "wiki": "https://utau.fandom.com/wiki/%E5%8F%8B%E4%BA%BA",
+    "bowlroll": "https://bowlroll.net/file/350273"
+  },
+  "canonical_documents": {
+    "manual": "docs/MANUAL.md",
+    "voicebank_specification": "docs/VOICEBANK.md",
+    "terms": "TERMS.md"
+  }
+}

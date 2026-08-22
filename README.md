@@ -8,10 +8,15 @@ Official repository for **友人 (Eugene)**, a Japanese CVVC UTAU voicebank by *
 
 - [Official Website](https://eliasadams.github.io/eugene-utau/)
 - [Download](https://github.com/ELIASADAMS/eugene-utau/releases)
-- [BowlRoll](https://bowlroll.net/file/350273)
+- [BowlRoll](https://bowlroll.net/file/354839)
 - [UTAU Wiki](https://utau.fandom.com/wiki/%E5%8F%8B%E4%BA%BA)
+- [Documentation](docs/README.md)
 - [Official Manual](docs/MANUAL.md)
 - [Technical Specifications](docs/VOICEBANK.md)
+- [Usage Guide](docs/USAGE.md)
+- [Character](docs/CHARACTER.md)
+- [Media Archive](docs/MEDIA.md)
+- [Future Revisions](docs/RELEASES.md)
 - [Terms of Use](TERMS.md)
 - [Machine-readable Metadata](voicebank.json)
 - [Changelog](changelog.html)
@@ -42,7 +47,7 @@ The voice is gentle and expressive, with a natural softness in sustained phrases
 
 ## Installation
 
-1. Download the latest release from [GitHub Releases](https://github.com/ELIASADAMS/eugene-utau/releases) or the [BowlRoll distribution](https://bowlroll.net/file/350273).
+1. Download the latest release from [GitHub Releases](https://github.com/ELIASADAMS/eugene-utau/releases) or the [BowlRoll distribution](https://bowlroll.net/file/354839).
 2. Extract the voicebank archive.
 3. Install it into your UTAU `voice` directory, or import it into OpenUtau according to your normal voicebank workflow.
 
@@ -52,19 +57,17 @@ For the recommended setup, start with **TIPS**. Moresampler, WORLDLINE-R, and wa
 
 The bank is intended for expressive Japanese vocal synthesis and performs especially well in dark pop, industrial, and experimental material.
 
+See [docs/USAGE.md](docs/USAGE.md) for the growing practical guide.
+
 ## Character
 
 友人 (Eugene) is a non-binary character who uses he/him pronouns. The official character profile describes him as a quiet presence associated with unfinished things, memory, disappearance, and the feeling of someone returning from somewhere that cannot be named.
 
-For the complete character profile, visual description, personality, and relationships, see the [official manual](docs/MANUAL.md) and [Technical/Character information](docs/VOICEBANK.md).
+See [docs/CHARACTER.md](docs/CHARACTER.md) for the character archive and [docs/MEDIA.md](docs/MEDIA.md) for official works featuring the voice.
 
 ## Terms of Use
 
 The official terms are maintained in [TERMS.md](TERMS.md). **Please use that document as the canonical version rather than copying or modifying the rules elsewhere.**
-
-### Attribution
-
-Credit the voicebank as **友人** or **Eugene**, with creator credit to **Ilya Minin (Eli)**.
 
 ## Credits
 
@@ -73,17 +76,16 @@ Credit the voicebank as **友人** or **Eugene**, with creator credit to **Ilya 
 - **Illustrator:** Ilya Minin (Eli)
 - **OTO / Technical:** eikton
 
-## Repository Contents
+## Repository Structure
 
-- `docs/` — canonical documentation derived from the official manual
-- `voicebank.json` — machine-readable voicebank metadata
-- `TERMS.md` — canonical terms of use
-- `sample.wav` — singing sample
-- `solfege.wav` — solfege sample
-- `index.html` — official GitHub Pages homepage
-- `info.html` — character and voicebank information
-- `download.html` — official download links
-- `changelog.html` — release history
+- `docs/` — canonical documentation and future archive
+- `assets/` — organized home for future character/promotional assets
+- `voicebank.json` — machine-readable metadata
+- `TERMS.md` — canonical terms
+- `index.html`, `info.html`, `download.html`, `changelog.html`, `contact.html` — GitHub Pages site
+- `sample.wav`, `solfege.wav` — current audio samples
+
+The existing root-level web/assets are intentionally preserved for now so the live site remains stable. A later asset migration can move them into `assets/` together with all site path updates.
 
 ## Contact
 
@@ -92,4 +94,4 @@ Credit the voicebank as **友人** or **Eugene**, with creator credit to **Ilya 
 
 ## Source of Truth
 
-The supplied official character/voicebank manual is the authoritative source for metadata, technical specifications, credits, and terms. Repository pages should link back to the canonical documentation instead of independently inventing conflicting values.
+The supplied official character/voicebank manual is the authoritative source for released-bank metadata, technical specifications, credits, and terms. Repository pages should link to canonical documentation instead of maintaining competing values.

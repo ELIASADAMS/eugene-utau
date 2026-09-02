@@ -175,12 +175,12 @@ header h1 {
 }
 
 
-.site-portrait {
+.site-assets\character\友人\友人 Portrait {
     display: flex;
     justify-content: center;
 }
 
-.site-portrait img {
+.site-assets\character\友人\友人 Portrait img {
     display: block;
     width: 600px;
     height: 600px;
@@ -195,7 +195,7 @@ header h1 {
         align-items: flex-start;
     }
 
-    .site-portrait img {
+    .site-assets\character\友人\友人 Portrait img {
         width: 300px;
         height: 300px;
     }

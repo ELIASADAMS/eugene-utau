@@ -89,8 +89,8 @@ The existing root-level web/assets are intentionally preserved for now so the li
 
 ## Contact
 
-- **Ilya Minin (Eli):** https://t.me/ilyaminineli
-- **eikton:** https://t.me/e1kton
+- **Ilya Minin (Eli):** <https://t.me/ilyaminineli>
+- **eikton:** <https://t.me/e1kton>
 
 ## Source of Truth
 

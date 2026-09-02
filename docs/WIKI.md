@@ -1,73 +1,145 @@
-[[Category:UTAU Voicebanks]]
-{{Utau Character|image=友人 Icon HiRes.png|capt=Official Art by Ilya Minin (Eli)|name=友人 (Eugene)|gen=-|orien=non-binary|prns=he/him|age=20|hegt=159|wegt=43|spes=no information|ethn=no information|desc=His existence is tied to a disappearance that was never fully explained, which makes him both deeply personal and hauntingly unresolved.|date=2026|type=UTAUloid|vocr=Possum Eugene|cred=(creator, idea, illustrator, character design) Ilya Minin (Eli)
-(voice provider) Possum Eugene 
-*(oto/tech) eikton|lang=Japanese|bank=*Reclist: CVVC Japanese
-*Genre: Dark pop, industrial, experimental
-*Optimum: 70~120 BPM / echo-heavy mixes|rng=C1–F#4|file=*Romaji-encoded
-*CVVC aliased|urls=https://bowlroll.net/file/354839
-https://github.com/ELIASADAMS/eugene-utau/releases/tag/release}}'''友人 (Eugene)''' is a non-binary androgynous UTAU voicebank with a remarkable, lived-in timbre that carries both intimacy and distance.
+# 友人 (Eugene)
 
-== Profile ==
- His voice was created from a carefully preserved collection of remnants, rebuilt phonemes, and heavily post-produced material, giving the feeling of someone speaking back through layers of memory.
-Eugene does not sound artificial in the usual sense; he sounds as though he have returned from somewhere no one can name.
+**友人 (Eugene)** is a non-binary, androgynous UTAU character and Japanese CVVC voicebank project by **Ilya Minin (Eli)**.
 
-His voice is warm and gentle, but there is always a trace of mystery in it, as if he are still trying to remember the shape of his own voice.
+> The Friend You Hear Differently.
 
-Eugene is a quiet presence in the universe, appearing only when something important has been left unfinished.
+## Profile
 
-His existence is tied to a disappearance that was never fully explained, which makes him both deeply personal and hauntingly unresolved.
+| Field | Information |
+|---|---|
+| Name | 友人 (Eugene) |
+| Type | UTAUloid / UTAU voicebank |
+| Pronouns | he/him |
+| Gender | non-binary / androgynous |
+| Age | 20 |
+| Height | 159 cm |
+| Voice provider | Possum Eugene |
+| Creator / character design | Ilya Minin (Eli) |
+| Oto / technical work | eikton |
+| Language | Japanese |
+| Reclist | Japanese CVVC |
+| Range | C1–F#4 |
+| Optimum | 70–120 BPM |
+| Style | Dark pop, industrial, experimental |
 
-He do not demand attention; instead, he arrive like an echo of someone beloved, mournful and half-lost, still refusing to disappear completely.
+## About
 
-=== Etymology details ===
-'''Name:''' 友人 (Eugene) – Japanese word meaning "friend" （ｙｏｊｉｎ). It also sounds phonetically similar to his real name (which is also spelled in English) and also existentially.
+Eugene is a quiet presence built around the idea of a voice returning through fragments of memory. His identity is deliberately unresolved: familiar enough to feel personal, but strange enough to feel like an echo of someone who has changed.
 
-'''Type:''' UTAUloid (ウタウロイド) – a singing synthesis voicebank for the UTAU program.
+The voicebank combines preserved vocal material, reconstructed phonemes, and post-production. The result is an intimate timbre with warmth, softness, distance, and an uncanny edge.
 
-=== Character details ===
+Eugene is not intended to represent a perfectly clean or artificial singing voice. The imperfections and traces in the recording are part of the character of the bank.
 
-* Blue hair with bright streaks. Small devil horns. Sharp features, bold eyeliner, and a confident, playful smile. He wears a vivid purple turtleneck under a shiny grey bomber jacket, a black-and-white checkered pleated mini-skirt, and bright opaque blue stockings. Layered necklaces with a bee pendant standing out like an emblem.
-* He looks smart and stylish, and a little bit mysterious, but there is a strange stillness about him — like someone who disappeared once and came back changed, carrying the quiet sadness of something unresolved.
+## Name
 
- His small devil horns are deliberate as they are part of Eugene's identity. They are a sign of the demonic side that was always there, quietly folded into who he was. 
- 
- It is something playful, but rooted in older ideas of corruption, possession, and the way Christianity shaped demons into figures of fear. 
- 
- In Eugene’s case, the horns feel less like a costume and more like an accurate reflection of his real identity. There is a strange, tender memory attached to him: while guiding Eugene to the park, we passed a temple where those horns were still in place, and the priests only smiled and greeted us. 
- 
- This memory sits alongside the story of the exorcism he was forced to undergo, making the horns feel like a symbol of defiance.
+**友人 (Eugene)** uses the Japanese word **友人**, meaning “friend.” The name also connects phonetically and conceptually with Eugene's personal identity.
 
-* '''Likes:''' Possums, old Vocaloid scene, and eerie early VocaPi tracks. Small personal obsessions, niche voices and haunting music. Being left alone to think, rest, or drift off without pressure. People and things that are weird and unpolished. People who understand that ''preservation can be an act of love.''
-* '''Dislikes:''' Forced cheerfulness, conversations that get rewritten after the fact, empty praise, being asked “so what do you really want?” in public, and having her silences interpreted as agreement.
-* '''Hates:''' GUMI<ref>https://vocaloid.fandom.com/wiki/GUMI</ref>
+## Character
 
-=== Relationships ===
-茜音イーライ(Akane Iirai): A close companion who understands him in ways normal people do not.
+Eugene has blue and black hair with bright blue accents, small red devil horns, pale pink skin, and sharp, expressive features. His current design uses an intentionally oversized silhouette:
 
-== Voicebank details ==
-友人 (Eugene) is a Japanese UTAU CVVC voicebank with a warm, intimate tone and a slightly uncanny edge. Built from preserved fragments, reconstructed phonemes, and extensive post-production, he has a lived-in quality that feels human, fragile, and strangely returned.
+- oversized orange shirt
+- oversized gray/lavender shorts
+- purple scarf / neck layer
+- layered necklaces, including a bee pendant
+- black mesh / fishnet arm sleeves
+- red leg warmers
+- chunky orange, purple, and white platform boots
 
-The voice is gentle and expressive, with a natural softness in sustained phrases. It works especially well for melancholic songs, slow emotional lines, and lyrical arrangements.
+The horns are an intentional part of Eugene's identity rather than a generic costume element. They carry associations with the character's darker and more complicated history while retaining a playful quality.
 
-=== Terms of Use ===
-All the provisions below shall be applied to the voicebank:
+## Personality and themes
 
-'''R-18 Content Allowed?''' Allowed for violence, horror, and darker themes; explicit sexual content should only be created with permission.
+Eugene is associated with preservation, disappearance, memory, unfinished conversations, and the tension between familiarity and change.
 
-'''Commercial Use of Voicebank Allowed?''' Non-commercial use is free; commercial projects require contacting the creator.
+He tends to fit works that are melancholic, eerie, intimate, experimental, or emotionally restrained. His character is deliberately allowed to remain imperfect and unresolved.
 
-'''Commercial Use of Character Allowed?''' Merchandise, logos, or branding using Iirai’s design require explicit permission from the creator and illustrator.
+### Likes
 
-'''Do these terms apply to derivative characters/voices?''' Yes, unless separate terms are provided.
+- possums
+- the old Vocaloid scene
+- eerie early VocaPi tracks
+- niche voices and haunting music
+- small personal obsessions
+- being left alone to think, rest, or drift without pressure
+- weird and unpolished things
+- people who understand that preservation can be an act of love
 
-'''Terms of use?''' Contact the creator via the listed social link for detailed or updated rules.
+### Dislikes
 
-== Gallery ==
-<gallery hideaddbutton="true">
-File:友人 Portrait HiRes.png|link=|Image from OpenUtau
-File:友人 Alt.png|link=|Alternate image from the manual
-File:友人 Separate.png|link=|Transparent avatar
-</gallery>
+- forced cheerfulness
+- conversations being rewritten after the fact
+- empty praise
+- being pressured to explain himself in public
+- having silence interpreted as agreement
 
-*
-<references />
+## Relationships
+
+**茜音イーライ (Akane Iirai)** — a close companion who understands Eugene in ways that ordinary people often do not.
+
+## Voicebank
+
+The original **友人** bank is a Japanese CVVC UTAU voicebank with a warm, intimate tone and a slightly uncanny edge.
+
+### Technical profile
+
+- **Encoding:** Romaji
+- **Aliasing:** CVVC
+- **Language:** Japanese
+- **Recommended tempo:** 70–120 BPM
+- **Recommended use:** dark pop, industrial, experimental, melancholic and atmospheric arrangements
+- **Approximate range:** C1–F#4
+
+## Voicebank generations
+
+The project keeps different generations as a lineage rather than replacing older releases.
+
+### 友人 — Original
+
+The original public voicebank and the foundation of the project. Its identity, recordings, documentation, and historical releases should remain preserved.
+
+### 友人RE
+
+A rebuilt and expanded generation intended to keep the identity of the original while adding more recording detail, phonetic coverage, expressive material, and improved technical flexibility.
+
+RE includes an expanded Japanese CVVC plan with long vowels, glottal stops, vocal fry, breath/exhale material, h-aspirated endings, nasal variants, English consonant material, trilled R, consonant releases, and experimental extras such as laughter, sobs, coughs, throat sounds, and gasps.
+
+### Future generations
+
+Future revisions such as **友人RE2** can be added without deleting or rewriting the historical banks. Each generation should remain identifiable as part of the same voicebank family.
+
+## Usage
+
+The voicebank is intended for UTAU and OpenUtau workflows. Always check the repository's current terms and release documentation before using Eugene in a public or commercial project.
+
+See:
+
+- [`TERMS.md`](../TERMS.md)
+- [`USAGE.md`](USAGE.md)
+- [`MANUAL.md`](MANUAL.md)
+- [`VOICEBANK.md`](VOICEBANK.md)
+- [`RELEASES.md`](RELEASES.md)
+
+## Credits
+
+- **Creator / idea / illustrator / character design:** Ilya Minin (Eli)
+- **Voice provider:** Possum Eugene
+- **Oto / technical:** eikton
+
+## Distribution
+
+The original public release is distributed through the project's official repository and BowlRoll release page.
+
+- [Eugene UTAU GitHub repository](https://github.com/ilyaminineli/eugene-utau)
+- [BowlRoll — 友人 voicebank](https://bowlroll.net/file/354839)
+
+## Gallery
+
+Character artwork and voicebank media are maintained in the repository under `assets/character/` and the project's media documentation.
+
+See [`MEDIA.md`](MEDIA.md) for the current media archive.
+
+---
+
+*This page is the repository's character reference. For the most current release status, use the dedicated voicebank pages and release documentation.*

@@ -1,6 +1,6 @@
-/* Eugene site compatibility fixes */
-*, *::before, *::after { box-sizing: border-box; }
+/* Small compatibility and accessibility fixes. Main layout lives in style.css. */
 html { overflow-x: hidden; }
 body { min-height: 100vh; }
-.audio-preview audio::-webkit-media-controls-panel { background: linear-gradient(145deg, var(--color-bg-primary), #f4ede5); }
-@media (max-width: 700px) { .site-header-inner { width: 100%; } }
+button, a { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+audio { min-height: 36px; }

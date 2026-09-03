@@ -17,6 +17,8 @@
 | Voice provider | Possum Eugene |
 | Creator / character design | Ilya Minin (Eli) |
 | Oto / technical work | eikton |
+| Enhanced base model / private development | Yar (AI Singers) |
+| Reclist optimisation | eikton |
 | Language | Japanese |
 | Reclist | Japanese CVVC |
 | Range | C1–F#4 |
@@ -25,9 +27,11 @@
 
 ## About
 
-Eugene is a quiet presence built around the idea of a voice returning through fragments of memory. His identity is deliberately unresolved: familiar enough to feel personal, but strange enough to feel like an echo of someone who has changed.
+Eugene is a quiet presence built around preservation, disappearance, memory, unfinished conversations, and the tension between familiarity and change.
 
-The voicebank combines preserved vocal material, reconstructed phonemes, and post-production. The result is an intimate timbre with warmth, softness, distance, and an uncanny edge.
+The voicebank was created from a carefully preserved collection of vocal material, reconstructed phonemes, and extensive post-production. The result is an intimate timbre with warmth, softness, distance, and an uncanny edge.
+
+The circumstances behind the preserved voice are deliberately left unresolved. The voice remains as an archive of someone who may be somewhere else, or may no longer be here. The project does not pretend to answer what happened.
 
 Eugene is not intended to represent a perfectly clean or artificial singing voice. The imperfections and traces in the recording are part of the character of the bank.
 
@@ -97,17 +101,15 @@ The project keeps different generations as a lineage rather than replacing older
 
 ### 友人 — Original
 
-The original public voicebank and the foundation of the project. Its identity, recordings, documentation, and historical releases should remain preserved.
+The original public voicebank and the foundation of the project. Its identity, recordings, documentation, and historical release remain preserved as the baseline of the family.
 
 ### 友人RE
 
 A rebuilt and expanded generation intended to keep the identity of the original while adding more recording detail, phonetic coverage, expressive material, and improved technical flexibility.
 
-RE includes an expanded Japanese CVVC plan with long vowels, glottal stops, vocal fry, breath/exhale material, h-aspirated endings, nasal variants, English consonant material, trilled R, consonant releases, and experimental extras such as laughter, sobs, coughs, throat sounds, and gasps.
+RE is scheduled for release on **05 November 2026**.
 
-### Future generations
-
-Future revisions such as **友人RE2** can be added without deleting or rewriting the historical banks. Each generation should remain identifiable as part of the same voicebank family.
+Private development also includes work on an enhanced base model with **Yar (AI Singers)**, while **eikton** contributes to optimisation of the updated reclist and technical setup.
 
 ## Usage
 
@@ -115,17 +117,19 @@ The voicebank is intended for UTAU and OpenUtau workflows. Always check the repo
 
 See:
 
-- [`TERMS.md`](../TERMS.md)
-- [`USAGE.md`](USAGE.md)
-- [`MANUAL.md`](MANUAL.md)
-- [`VOICEBANK.md`](VOICEBANK.md)
-- [`RELEASES.md`](RELEASES.md)
+- [TERMS.md](../TERMS.md)
+- [USAGE.md](USAGE.md)
+- [MANUAL.md](MANUAL.md)
+- [VOICEBANK.md](VOICEBANK.md)
+- [RELEASES.md](RELEASES.md)
 
 ## Credits
 
 - **Creator / idea / illustrator / character design:** Ilya Minin (Eli)
 - **Voice provider:** Possum Eugene
 - **Oto / technical:** eikton
+- **Updated reclist optimisation:** eikton
+- **Enhanced base model / private development for 友人RE:** Yar (AI Singers)
 
 ## Distribution
 
@@ -138,8 +142,8 @@ The original public release is distributed through the project's official reposi
 
 Character artwork and voicebank media are maintained in the repository under `assets/character/` and the project's media documentation.
 
-See [`MEDIA.md`](MEDIA.md) for the current media archive.
+See [MEDIA.md](MEDIA.md) for the current media archive.
 
 ---
 
-*This page is the repository's character reference. For the most current release status, use the dedicated voicebank pages and release documentation.*
+*This page is the repository's character reference. For current release information, use the dedicated voicebank pages and release documentation.*

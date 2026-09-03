@@ -30,7 +30,7 @@ The public release credit describes significant help from Ilya Minin (Eli) with 
 A Japanese custom-voicebank cover using **タキスマナ (Takismana)** and **茜音イーライ (Akane Iirai)**.  
 **YouTube:** https://youtu.be/eGvrAAnUAbI
 
-This work is relevant to the broader ELI LAB voicebank ecosystem and demonstrates the updated Iirai bank in a shared vocal arrangement.
+This work is relevant to the broader eli_lab voicebank ecosystem and demonstrates the updated Iirai bank in a shared vocal arrangement.
 
 ## Future media
 
